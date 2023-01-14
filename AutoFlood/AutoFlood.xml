@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
+    	<Script file="localization.en.lua"/>
+   	<Script file="localization.fr.lua"/>
+	<Script file="AutoFlood.lua" />
+	<Frame name="AutoFlood_Frame" frameStrata="HIGH" toplevel="true" enableMouse="false" movable="false">
+		<Scripts>
+			<OnLoad>AutoFlood_OnLoad();</OnLoad>
+			<OnUpdate>AutoFlood_OnUpdate(arg1);</OnUpdate>
+			<OnEvent>AutoFlood_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
+

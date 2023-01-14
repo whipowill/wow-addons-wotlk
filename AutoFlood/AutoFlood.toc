@@ -1,0 +1,5 @@
+## Interface: 30300
+## Title: AutoFlood
+## Notes: Sends a periodical message in a channel
+## SavedVariables: AF_config
+AutoFlood.xml

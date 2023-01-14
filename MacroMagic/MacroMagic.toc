@@ -1,0 +1,9 @@
+## Interface: 30300
+## Title: MacroMagic
+## Author: Antiarc
+## Notes: Gives you a one-shot /x toggle to toggle error sounds and clear the UI errors display.
+## X-Curse-Packaged-Version: v1.0
+## X-Curse-Project-Name: MacroMagic
+## X-Curse-Project-ID: macromagic
+## X-Curse-Repository-ID: wow/macromagic/mainline
+core.lua

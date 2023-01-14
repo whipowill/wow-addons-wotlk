@@ -1,0 +1,17 @@
+## Interface: 30300
+## Author: kunda
+## Title: EnhancedTradeSkillUI
+## Notes: Shows more recipies in the profession window.
+## Notes-deDE: Zeigt mehr Rezepturen in der Berufsübersicht.
+## Version: 30300-1
+## SavedVariables: EnhancedTradeSkillUI_Options
+## X-Curse-Packaged-Version: 30300-1
+## X-Curse-Project-Name: EnhancedTradeSkillUI
+## X-Curse-Project-ID: enhanced-trade-skill-ui
+## X-Curse-Repository-ID: wow/enhanced-trade-skill-ui/mainline
+
+EnhancedTradeSkillUI-localization-enUS.lua
+EnhancedTradeSkillUI-localization-deDE.lua
+EnhancedTradeSkillUI-localization-zhTW.lua
+
+EnhancedTradeSkillUI.lua

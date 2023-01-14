@@ -1,0 +1,8 @@
+!*.dll
+!*/*.dll
+.DS_Store
+*.sh
+*/*.sh
+DBM*/
+Blizzard*/
+AlwaysUnsheath/

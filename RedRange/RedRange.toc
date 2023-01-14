@@ -1,0 +1,7 @@
+## Interface: 30000
+## Title: RedRange (v1.2)
+## Author: Iriel (iriel@vigilance-committee.org)
+## Notes: Red-out out of range skills (v1.2)
+RedRange.lua
+
+

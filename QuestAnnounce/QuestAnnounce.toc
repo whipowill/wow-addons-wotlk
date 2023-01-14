@@ -1,0 +1,23 @@
+## Interface: 30300
+## Title: Quest Announce
+## Title-deDE: Quest Mittteilungen
+## Title-frFR: Quest Announce
+## Title-koKR: Quest Announce
+## Title-zhCN: Quest Announce
+## Title-esES: Quest Announce
+## Author: Michael Irving update to WOW 2.4.0 by Sommy aka Gyffes(Gilneas)
+## Ins TW und CN Übersetzt von s8095324. 
+## Ins Russische übersetzt von gorsvet
+## Version: 3.3.0
+## Notes: Quest Announce sends a party message as you advance in a quest.
+## Notes-deDE: Postet den Questfortschritt als Gruppennachricht
+## Notes-frFR: Quest Announce sends a party message as you advance in a quest.
+## Notes-koKR: Quest Announce sends a party message as you advance in a quest.
+## Notes-zhCN: Quest Announce sends a party message as you advance in a quest.
+## Notes-esES: Quest Announce sends a party message as you advance in a quest.
+## eMail: webmaster@sommys.com
+## URL: http:\\www.ihl-gilneas.de
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: QuestAnnounce_enable,QuestAnnounce_advmsg,QuestAnnounce_finmsg,QuestAnnounce_every,QuestAnnounce_ver
+QuestAnnounce.xml

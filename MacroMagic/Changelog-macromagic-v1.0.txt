@@ -1,0 +1,12 @@
+tag v1.0
+855b101242bb4e87dce4ce80b1657f7c7bb57ed9
+unknown <Chris@.(none)>
+2010-01-07 20:58:39 -0700
+
+Tagging as 1.0
+
+
+--------------------
+
+unknown:
+	- Initial commit

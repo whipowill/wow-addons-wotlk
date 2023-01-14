@@ -1,0 +1,35 @@
+------------------------------------------------------------------------
+r5 | talryn1 | 2010-08-18 22:34:46 +0000 (Wed, 18 Aug 2010) | 1 line
+Changed paths:
+   A /tags/v0.2 (from /trunk:4)
+
+Tagging as v0.2.  Added French localization
+------------------------------------------------------------------------
+r4 | talryn1 | 2010-08-18 22:20:40 +0000 (Wed, 18 Aug 2010) | 1 line
+Changed paths:
+   A /trunk/Locale/frFR.lua
+   M /trunk/PeaceAndQuiet.lua
+   M /trunk/locale.xml
+
+Coding improvement and French localization
+------------------------------------------------------------------------
+r2 | talryn1 | 2010-08-12 21:02:55 +0000 (Thu, 12 Aug 2010) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+   A /trunk/Locale
+   A /trunk/Locale/enUS.lua
+   A /trunk/PeaceAndQuiet.lua
+   A /trunk/PeaceAndQuiet.toc
+   A /trunk/embeds.xml
+   A /trunk/locale.xml
+
+Initial version
+------------------------------------------------------------------------
+r1 | root | 2010-08-12 20:55:24 +0000 (Thu, 12 Aug 2010) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"peace-and-quiet/mainline: Initial Import"
+------------------------------------------------------------------------

@@ -1,0 +1,26 @@
+------------------------------------------------------------------------
+r9 | kunda | 2009-12-09 16:41:00 +0000 (Wed, 09 Dec 2009) | 1 line
+Changed paths:
+   A /tags/30300-1 (from /trunk:8)
+
+Tagging as 30300-1
+------------------------------------------------------------------------
+r8 | kunda | 2009-12-09 16:39:17 +0000 (Wed, 09 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/EnhancedTradeSkillUI-localization-zhTW.lua
+
+zhTW update
+------------------------------------------------------------------------
+r7 | kunda | 2009-12-09 16:31:08 +0000 (Wed, 09 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/EnhancedTradeSkillUI.toc
+
+toc: 30300 update
+------------------------------------------------------------------------
+r6 | a9012456 | 2009-08-06 14:30:13 +0000 (Thu, 06 Aug 2009) | 1 line
+Changed paths:
+   A /trunk/EnhancedTradeSkillUI-localization-zhTW.lua
+   M /trunk/EnhancedTradeSkillUI.toc
+
+add zhTW
+------------------------------------------------------------------------

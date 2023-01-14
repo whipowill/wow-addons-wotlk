@@ -1,0 +1,14 @@
+<Bindings>
+  <Binding name="WorldExplorer_ToggleAddon" header="WORLDEXPLORER">
+    WorldExplorer:TogAddon();
+  </Binding>
+  <!-- <Binding name="WorldExplorer_ToggleBreadDrop">
+    WorldExplorer:TogBreadDrop();
+  </Binding>
+  <Binding name="WorldExplorer_ToggleHideBread">
+    WorldExplorer:TogHideBread();
+  </Binding>
+  <Binding name="WorldExplorer_ToggleDropWhenDead">
+    WorldExplorer:TogDropWhenDead();
+  </Binding> -->
+</Bindings>

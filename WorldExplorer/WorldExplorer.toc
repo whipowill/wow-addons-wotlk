@@ -1,0 +1,43 @@
+## Interface: 30300
+## Title: WorldExplorer (|cff3366ffZasurus|r) |cffff9900BETA Version [2.0.5]|r
+## Version: 2.0.5
+## X-VersionType: BETA
+## Author: Zasurus
+## Notes: Adds to your map coordinates to uncover all unexplored areas. Including an option for the ones that isn't needed for the achivement!
+## SavedVariables: WorldExplorer_Options, WorldExplorer_Temp
+## SavedVariablesPerCharacter: WorldExplorer_DebugLog, WorldExplorer_StoreDebugMsgs, WorldExplorer_KnownAreas, WorldExplorer_KnownAreasOld
+## Dependencies: 
+## OptionalDeps: Carbonite
+
+## X-Embeds: LibStub, Astrolabe, LibZasMsgCtr, AceLocale-3.0, CallbackHandler-1.0, AceGUI-3.0, AceConfig-3.0, Dongle
+
+# Library files
+Libs\LibStub\LibStub.lua
+Libs\Astrolabe\Load.xml
+Libs\LibZasMsgCtr\LibZasMsgCtr.lua
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\Dongle\Dongle.lua
+
+# Other Addon Fixes
+Libs\Fix_ZasCarboniteFixs\Fix_ZasCarboniteFixs.lua
+
+# Locale files
+Locales\Locale-enUS.lua
+
+# Static Data files
+WorldExplorer_StaticData.lua
+
+# Core files
+WorldExplorer.lua
+
+
+# ---------------
+# Version Colours
+# ---------------
+# RELEASE(Green)  = |cff00ff00
+# BETA   (Orange) = |cffff9900BETA
+# ALPHA  (Red)    = |cffff0000ALPHA
+# ---------------

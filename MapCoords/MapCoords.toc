@@ -1,0 +1,11 @@
+## Interface: 30300
+## Author: ReCover, Jim-Bim, Urmelus (TOC Update)
+## Version: 0.7
+## Title: MapCoords
+## DefaultState: Enabled
+## Notes: Shows cursor/player coords on worldmap and shows coords below your and your party members portrait (use "/mc or "/mapcoords")
+## Notes-deDE: Zeigt Spieler/Mauszeiger Koordinaten auf der Karte und unter dem Portrait an (Nutze "/mc" oder "/mcapcoords")
+## Notes-frFR: Affiche les coordonnées du curseur/joueur sur la carte du monde ainsi que les coordonnées sous votre portrait et ceux des membres de votre groupe (utiliser "/mc" ou "/mapcoords")
+## SavedVariables: MapCoords2
+
+MapCoords.xml
