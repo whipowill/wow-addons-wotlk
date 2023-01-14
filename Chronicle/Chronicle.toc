@@ -1,0 +1,18 @@
+## Interface: 40300
+## Title: Chronicle (|cff67b1e9K|cff4779ceith|cff67b1e9M|cff4779ceod|r)
+## Notes: An in-game note taking mod, shared between all characters on an account. Allows for full organisation of notes.
+## Author: Kith (Kithulhu)
+## Version: 1.0.0
+## SavedVariables: ChronicleDB
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## X-Category: Interface Enhancements
+
+embeds.xml
+
+Locales\Local_enUS.lua
+
+Core.lua
+CommonGUI.lua
+Editor.lua
+Index.lua
