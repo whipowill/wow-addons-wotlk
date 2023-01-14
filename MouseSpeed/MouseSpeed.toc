@@ -1,7 +1,0 @@
-## Interface: 30305
-## Title: MouseSpeed
-## Author: whipowill
-## Notes:
-## DefaultState: Enabled
-## LoadOnDemand: 0
-MouseSpeed.lua
