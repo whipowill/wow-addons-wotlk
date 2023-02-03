@@ -6,7 +6,9 @@ local defaults = {
     profile = {
         verbose = true,
         manageGeneral = true,
-        manageLocalDefense = true
+        manageLocalDefense = true,
+        manageGuild = true,
+        manageWorld = true
     }
 }
 
@@ -27,6 +29,7 @@ function PeaceAndQuiet:GetOptions()
                     get = function(info) return self.db.profile.verbose end,
                     order = 10
                 },
+                --[[
                 manageGeneral = {
                     name = L["Manage General Channel"],
                     desc = L["Toggles whether the General chat channel is automatically enabled/disabled."],
@@ -44,7 +47,26 @@ function PeaceAndQuiet:GetOptions()
                     set = function(info, val) self.db.profile.manageLocalDefense = val end,
                     get = function(info) return self.db.profile.manageLocalDefense end,
                     order = 30
+                },
+                manageGuild = {
+                    name = L["Manage Guild Channel"],
+                    desc = L["Toggles whether the Guild chat channel is automatically enabled/disabled."],
+                    type = "toggle",
+                    width = "double",
+                    set = function(info, val) self.db.profile.manageGuild = val end,
+                    get = function(info) return self.db.profile.manageGuild end,
+                    order = 40
+                },
+                manageWorld = {
+                    name = L["Manage World Channel"],
+                    desc = L["Toggles whether the World chat channel is automatically enabled/disabled."],
+                    type = "toggle",
+                    width = "double",
+                    set = function(info, val) self.db.profile.manageWorld = val end,
+                    get = function(info) return self.db.profile.manageWorld end,
+                    order = 50
                 }
+                ]]
             }
         }
     end
@@ -89,7 +111,7 @@ end
 function PeaceAndQuiet:PLAYER_ENTERING_WORLD()
     local isInstance, instanceType = IsInInstance()
 
-    if instanceType == "none" or instanceType == "pvp" then
+    if instanceType == "none" then
         -- Player is in the world or a battleground
         if self.db.profile.verbose then
             self:Print(L["Displaying global channels"])
@@ -99,6 +121,12 @@ function PeaceAndQuiet:PLAYER_ENTERING_WORLD()
         end
         if self.db.profile.manageLocalDefense == true then
             ChatFrame_AddChannel(DEFAULT_CHAT_FRAME, L["LocalDefense"])
+        end
+        if self.db.profile.manageGuild == true then
+            ChatFrame_AddChannel(DEFAULT_CHAT_FRAME, L["Guild"])
+        end
+        if self.db.profile.manageWorld == true then
+            ChatFrame_AddChannel(DEFAULT_CHAT_FRAME, L["world"])
         end
     else
         -- Player is in an instance, raid, or arena
@@ -110,6 +138,12 @@ function PeaceAndQuiet:PLAYER_ENTERING_WORLD()
         end
         if self.db.profile.manageLocalDefense == true then
             ChatFrame_RemoveChannel(DEFAULT_CHAT_FRAME, L["LocalDefense"])
+        end
+        if self.db.profile.manageGuild == true then
+            ChatFrame_RemoveChannel(DEFAULT_CHAT_FRAME, L["Guild"])
+        end
+        if self.db.profile.manageWorld == true then
+            ChatFrame_RemoveChannel(DEFAULT_CHAT_FRAME, L["world"])
         end
     end
 end
