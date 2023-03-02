@@ -1,0 +1,8 @@
+﻿## Interface: 30000
+## Author: Swamphell
+## Title: BGRelease
+## Notes: Auto release when player dead in battlegrounds
+## Version: 1.0
+## SavedVariablesPerCharacter: bgreleasebool
+
+BGRelease.lua

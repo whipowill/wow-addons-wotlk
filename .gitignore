@@ -4,6 +4,7 @@
 *.sh
 */*.sh
 DBM*/
+NoShift/
 Blizzard*/
 AlwaysUnsheath/
 MouseSpeed/
