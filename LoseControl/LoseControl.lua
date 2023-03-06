@@ -113,7 +113,7 @@ local spellIds = {
 	[8056]  = "Snare",	-- Frost Shock
 	[8034]  = "Snare",	-- Frostbrand Attack
 	-- Warlock
-	[710]   = "CC",		-- Banish (works against Warlocks using Metamorphasis and Druids using Tree Form)
+	[710]   = "CC",		-- Banish
 	[6789]  = "CC",		-- Death Coil
 	[5782]  = "CC",		-- Fear
 	[5484]  = "CC",		-- Howl of Terror
@@ -125,7 +125,7 @@ local spellIds = {
 	-- Warrior
 	[7922]  = "CC",		-- Charge Stun
 	[12809] = "CC",		-- Concussion Blow
-	[20253] = "CC",		-- Intercept (also Warlock Felguard ability)
+	[20253] = "CC",		-- Intercept
 	[5246]  = "CC",		-- Intimidating Shout
 	[12798] = "CC",		-- Revenge Stun
 	[46968] = "CC",		-- Shockwave

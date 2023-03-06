@@ -1,0 +1,13 @@
+tag 1.0.2
+adf131f0470ca65077caf7af97fb8170f71a373f
+Archarodim <archarodim@teaser.fr>
+2009-12-11 01:10:04 +0100
+
+Tagging as 1.0.2
+
+
+--------------------
+
+Archarodim:
+	- - Toc to 30300
+	- - Internal cleanup (:retab, typos, etc...)

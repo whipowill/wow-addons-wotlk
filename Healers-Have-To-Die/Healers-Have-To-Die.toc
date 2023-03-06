@@ -1,0 +1,27 @@
+## Interface: 30300
+## X-Curse-Packaged-Version: 1.0.2
+## X-Curse-Project-Name: Healers have to die
+## X-Curse-Project-ID: healers-have-to-die
+## X-Curse-Repository-ID: wow/healers-have-to-die/mainline
+
+## Title: Healers Have To Die
+## Notes: A simple Add-on that rings when you hover or target an enemy healer.
+## Author: Archarodim
+## Version: 1.0.2
+
+## SavedVariables: HealersHaveToDieDB
+
+## X-License: All Rights Reserved
+
+## OptionalDeps: Ace3, CallbackHandler-1.0
+## X-Embeds: Ace3, CallbackHandler-1.0
+
+## X-ReleaseDate: "2009-12-11T00:09:38Z"
+## X-Category: PvP
+## X-eMail: archarodim@teaser.fr
+
+embeds.xml
+
+Core.lua
+utils.lua
+
