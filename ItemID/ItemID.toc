@@ -1,0 +1,6 @@
+## Title: ItemID - by |c909482c9Ikuria|r Gilneas.EU
+## Version: 1.0
+## Author: Ikuria (Gilneas.EU)
+## Notes: ItemID im Tooltip
+## Interface: 50100
+ItemID.lua
